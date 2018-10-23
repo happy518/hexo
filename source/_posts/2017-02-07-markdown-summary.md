@@ -1,9 +1,8 @@
 ---
 layout:     post
 title:      markdown 使用总结
-subtitle:   markdown快速入门
 date:       2017-02-07
-author:     happy518
+description:   markdown快速入门
 header-img: img/post-bg-re-vs-ng2.jpg
 catalog: true
 tags:

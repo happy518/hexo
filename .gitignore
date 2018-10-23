@@ -2,5 +2,11 @@
 Thumbs.db
 db.json
 *.log
+node_modules/
 public/
 .deploy*/
+README.md
+
+*.ico
+*.md
+*.txt

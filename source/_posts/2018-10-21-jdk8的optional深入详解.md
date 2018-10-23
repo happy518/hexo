@@ -1,11 +1,11 @@
 ---
 layout:     post
 title:      jdk8的optional深入详解
-subtitle:   jdk8的新特性 optional源码分析，深入详解，使用指南
 date:       2018-10-21
-author:     happy518
-header-img: img/post/2018-10-21.jpg
-catalog: true
+description:   jdk8的新特性 optional源码分析，深入详解，使用指南
+toc: true
+category: 
+	- jdk8
 tags:
     - jdk8
     - optional

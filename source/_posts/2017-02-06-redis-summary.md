@@ -1,11 +1,11 @@
 ---
 layout:     post
 title:      redis使用总结
-subtitle:   redis常用基础命令
 date:       2017-02-06
-author:     happy518
-header-img: img/post-bg-re-vs-ng2.jpg
-catalog: true
+description:   redis常用基础命令
+toc: true
+comments: false
+category: redis
 tags:
     - redis
 ---
@@ -16,38 +16,57 @@ Redis是目前业界使用最广泛的内存数据存储。相比memcached，Red
 ## 运营命令
 
 1、启动redis
-> src/redis-server &
+```bash
+src/redis-server &
+```
 
 2、关闭redis
-> src/redis-cli shutdown
+```bash
+src/redis-cli shutdown
+```
 
 3、连接
-> telnet localhost 6379
-
+```bash
+telnet localhost 6379
+```
 
 ## 诊断命令
 
 1、查看基本信息
->  INFO
+```bash
+INFO
+```
 
 2、查看缓存键 
-> keys '*'
+```bash
+keys '*'
+```
 
 3、查看key的类型
-> type yourkey
+```bash
+type yourkey
+```
 
 ## 操作命令
 1、插入命令
-> set key yy
+```bash
+set key yy
+```
 
 2、获取命令
-> get key
+```bash
+get key
+```
 
 2、清空所有数据
-> FLUSHALL 
+```bash
+FLUSHALL 
+```
 
 ## 配置命令
 
 1、添加日志
-> vim redis.conf
-> logfile /data/redis_cache/logs/redis.log #日志路径
+```bash
+vim redis.conf
+logfile /data/redis_cache/logs/redis.log #日志路径
+```
